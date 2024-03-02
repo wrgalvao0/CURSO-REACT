@@ -1,5 +1,5 @@
 import { Post } from "./Post"
-import './styles.css'
+import './global.css'
 import { Header } from "./assets/components/Header"
 export function App() {
 
