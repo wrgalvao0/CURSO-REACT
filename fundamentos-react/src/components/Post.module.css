@@ -97,3 +97,6 @@
 .comentarios button[type=submit]:hover{
     background-color: gray;
 }
+.comentarioLista{
+    margin-top: 2rem;
+}
