@@ -13,6 +13,7 @@ export function App() {
         <Sidebar/> 
         <main>
           <Post author = "WARLEY GALVAO" content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime deleniti rem ipsum optio natus neque fuga. Harum quisquam aut eaque possimus molestiae. Quo non porro nihil laudantium nobis, officiis recusandae." />
+          <Post/>
         </main>
       </div>
     </div>
