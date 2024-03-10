@@ -1,0 +1,74 @@
+.comentario{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.comentario > img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+.comentarioBox{
+    flex: 1;
+}
+.comentarioConteudo{
+    background-color: var(--gray700);
+    border-radius: 8px;
+    padding: 1rem;
+}
+.comentarioConteudo header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.authorAndTime{
+    display: flex;
+    flex-direction: column;
+
+}
+.authorAndTime strong{
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+.authorAndTime time{
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--gray400);
+}
+.comentarioConteudo header button{
+    background: transparent;
+    border: 0;
+    color: var(--gray400);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 4px;
+
+}
+.comentarioConteudo header button:hover{
+    color: var(--red500);
+}
+.comentarioConteudo p{
+    margin-top: 1rem;
+    color: var(--gray300);
+}
+.comentarioBox footer{
+    margin-top: 1rem;
+}
+.comentarioBox footer button{
+    background: transparent;
+    border: 0;
+    color: var(--gray400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.comentarioBox footer button:hover{
+    color: var(--green500);
+}
+.comentarioBox footer button svg{
+    margin-right: 0.5rem;
+}
+.comentarioBox footer button span::before{
+    padding: 0 0.25rem;
+    content: "\2022";
+}
